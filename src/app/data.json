@@ -1,0 +1,108 @@
+{
+  "boards": [
+    {
+      "id": "board1",
+      "name": "Project Management",
+      "active": true,
+      "columns": [
+        {
+          "id": "column1",
+          "boardID": "board1",
+          "color": "#FF5733",
+          "name": "To Do",
+          "tasks": [
+            {
+              "id": "task1",
+              "columnID": "column1",
+              "boardID": "board1",
+              "name": "Task 1",
+              "description": "Description for Task 1",
+              "subTasks": [
+                {
+                  "id": "subtask1",
+                  "taskID": "task1",
+                  "columnID": "column1",
+                  "boardID": "board1",
+                  "name": "Subtask 1",
+                  "isDone": false
+                },
+                {
+                  "id": "subtask2",
+                  "taskID": "task1",
+                  "columnID": "column1",
+                  "boardID": "board1",
+                  "name": "Subtask 2",
+                  "isDone": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "column2",
+          "boardID": "board1",
+          "color": "#33FF57",
+          "name": "In Progress",
+          "tasks": [
+            {
+              "id": "task2",
+              "columnID": "column2",
+              "boardID": "board1",
+              "name": "Task 2",
+              "description": "Description for Task 2",
+              "subTasks": [
+                {
+                  "id": "subtask3",
+                  "taskID": "task2",
+                  "columnID": "column2",
+                  "boardID": "board1",
+                  "name": "Subtask 3",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "board2",
+      "name": "Personal Projects",
+      "active": false,
+      "columns": [
+        {
+          "id": "column3",
+          "boardID": "board2",
+          "color": "#3357FF",
+          "name": "Ideas",
+          "tasks": [
+            {
+              "id": "task3",
+              "columnID": "column3",
+              "boardID": "board2",
+              "name": "Task 3",
+              "description": "Description for Task 3",
+              "subTasks": [
+                {
+                  "id": "subtask4",
+                  "taskID": "task3",
+                  "columnID": "column3",
+                  "boardID": "board2",
+                  "name": "Subtask 4",
+                  "isDone": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "column4",
+          "boardID": "board2",
+          "color": "#FF33A1",
+          "name": "Research",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
